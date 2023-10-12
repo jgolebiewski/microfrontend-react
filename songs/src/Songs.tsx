@@ -4,7 +4,7 @@ export const  Songs = (): JSX.Element => {
 
     return <>
         <div>
-            Songs remote
+            Songs remote update
         </div>
 
     </>

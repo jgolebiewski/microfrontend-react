@@ -1,5 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
+
+import ReactDOM from 'react-dom/client';
 
 import "./index.scss";
 import { Songs } from "./Songs";
@@ -10,4 +11,14 @@ const App = () => (
     <Songs />
   </div>
 );
-ReactDOM.render(<App />, document.getElementById("app"));
+
+
+
+const root = ReactDOM.createRoot(
+    document.getElementById('app') as HTMLElement
+);
+root.render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+);

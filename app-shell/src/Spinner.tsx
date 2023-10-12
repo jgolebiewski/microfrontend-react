@@ -1,5 +1,5 @@
 import React from "react";
-export const  Spinner = (): JSX.Element => {
+export const  Spinner = () => {
 
     return <>
         <div>

@@ -5,3 +5,9 @@ declare module 'songs/Songs' {
 
     export const Songs;
 }
+
+declare module 'artists/Artists' {
+    const Artists: React.ComponentType;
+
+    export const Artists;
+}

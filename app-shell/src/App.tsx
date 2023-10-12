@@ -5,13 +5,15 @@ import "./index.scss";
 import { Spinner } from "./Spinner";
 
 import { Songs } from 'songs/Songs';
+import { Artists } from "artists/Artists";
 
 // const Songs = lazy(() => import('songs/Songs'));
 const App = () => (
   <div className="mt-10 text-3xl mx-auto max-w-6xl">
     <div>Name: app-shell</div>
       {/*<Suspense fallback={<Spinner />}>*/}
-          <Songs />
+      {/*    <Songs />*/}
+      <Artists />
       {/*</Suspense>*/}
 
   </div>
